@@ -1,0 +1,146 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('../img/hero-image.jpg'); /* Imagen de fondo del hero */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #333;
+}
+
+/* Featured Products */
+.featured-products {
+    padding: 40px 20px;
+}
+
+.featured-products h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.product-card h3 {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.product-card p {
+    font-size: 14px;
+    color: #666;
+}
+
+.btn-secondary {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #000;
+}
+
+/* Special Offers */
+.special-offers {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+.special-offers h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.offers-slider {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+.offer-slide {
+    flex: 1;
+    position: relative;
+    margin: 0 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.offer-slide img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.offer-details {
+    padding: 20px;
+}
+
+.offer-details h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.offer-details p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
